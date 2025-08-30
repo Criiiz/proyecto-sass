@@ -1,0 +1,10 @@
+ @use 'variables';
+ @use 'mixins';
+ @use 'layout';
+
+
+body {
+    background-color: variables.$tertiary-color;
+    padding: 0px;
+    margin: 10px;
+}
