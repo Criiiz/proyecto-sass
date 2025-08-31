@@ -1,0 +1,23 @@
+@use '../variables';
+@use '../mixins';
+@use '/sass/components/coleccion_item';
+
+.otros-productos{
+    background-color: variables.$primary-color;
+    text-align: center;
+    width: 100%;
+    h2{
+        font-size: variables.$font-size-xl;
+        color: variables.$color-dark;
+        margin: variables.$spacing-lg 0;
+    }
+    .productos-1{
+        background-color: variables.$color-dark;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .productos-2{
+        text-align: right;
+    }
+}

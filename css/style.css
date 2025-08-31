@@ -98,6 +98,23 @@ header nav .nav-social a:hover {
   background-color: #333;
 }
 
+.otros-productos {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+.otros-productos h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin: 24px 0;
+}
+.otros-productos .productos-1 {
+  text-align: left;
+}
+.otros-productos .productos-2 {
+  text-align: right;
+}
+
 body {
   background-color: #ffffff;
   padding: 0px;

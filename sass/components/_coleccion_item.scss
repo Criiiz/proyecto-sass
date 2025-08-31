@@ -1,0 +1,12 @@
+@use '../variables';
+@use '../mixins';
+
+.otros-productos{
+    background-color: variables.$color-danger;
+    h2{
+        font-size: variables.$font-size-lg;
+        color: variables.$color-dark;
+        text-align: center;
+        margin: variables.$spacing-lg 0;
+    }
+}
