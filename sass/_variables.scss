@@ -32,15 +32,21 @@ $spacing-sm: 8px;
 $spacing-md: 16px;
 $spacing-lg: 24px;
 $spacing-xl: 32px;
+$spacing-xxl: 48px;
+$spacing-xxxl: 64px;
 
 //ancho de contenedores
+$container-ls: 230px;
 $container-sm: 540px;
 $container-md: 720px;
 $container-lg: 960px;
 $container-xl: 1140px;
 
 //largo de contenedores
+$container-height-ls: 220px;
 $container-height-sm: 360px;
+$container-height-md: 480px;
+$container-height-lg: 600px;
 
 //estilos de borde
 $radius-sm: 4px;

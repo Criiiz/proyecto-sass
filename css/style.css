@@ -98,6 +98,148 @@ header nav .nav-social a:hover {
   background-color: #333;
 }
 
+.card {
+  display: block;
+  width: 230px;
+  height: 360px;
+  margin: 0 16px;
+  background-color: #B0B0B0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.beneficios {
+  background-color: #D9D9D9;
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.beneficios .beneficios-card {
+  width: 30%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 64px;
+  margin-right: 32px;
+}
+.beneficios .beneficios-card h3 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.beneficios .beneficios-card p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.beneficios .beneficios-card button {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: none;
+  padding: 16px 24px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.beneficios .beneficios-card button:hover {
+  background-color: #333;
+}
+
+.image-carrusel {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.image-carrusel .carrousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.image-carrusel .card {
+  position: relative;
+  min-width: 60%;
+}
+.image-carrusel .card img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+.image-carrusel .card .card-info {
+  position: absolute;
+  width: 70%;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.image-carrusel .card .card-info span {
+  font-size: 0.9rem;
+  color: gray;
+}
+.image-carrusel .card .card-info h3 {
+  font-size: 1.2rem;
+  color: black;
+}
+.image-carrusel .card .card-info button {
+  align-self: flex-end;
+  background: gray;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.image-carrusel button.prev, .image-carrusel button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(236, 236, 236, 0.5);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.image-carrusel button.prev.prev, .image-carrusel button.next.prev {
+  left: 10px;
+}
+.image-carrusel button.prev.next, .image-carrusel button.next.next {
+  right: 10px;
+}
+.image-carrusel .carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+.image-carrusel .carousel-dots .dot {
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+}
+.image-carrusel .carousel-dots .dot.active {
+  background: black;
+}
+
 body {
   background-color: #ffffff;
   padding: 0px;
