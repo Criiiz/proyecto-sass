@@ -254,6 +254,7 @@ header nav .nav-social a:hover {
   text-align: center;
 }
 
+
 .cta {
   background-color: #ffffff;
   height: 540px;
@@ -446,6 +447,46 @@ header nav .nav-social a:hover {
 }
 .contactanos button:hover {
   background-color: #333;
+=======
+.otros-productos h2 {
+  text-align: center;
+  color: #3d3c3f;
+  font-size: 32px;
+  font-weight: bold;
+}
+.otros-productos .productos-1,
+.otros-productos .productos-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.otros-productos .productos-1 .item-1, .otros-productos .productos-1 .item-2, .otros-productos .productos-1 .item-3, .otros-productos .productos-1 .item-4, .otros-productos .productos-1 .item-5, .otros-productos .productos-1 .item-6, .otros-productos .productos-1 .item-7, .otros-productos .productos-1 .item-8,
+.otros-productos .productos-2 .item-1,
+.otros-productos .productos-2 .item-2,
+.otros-productos .productos-2 .item-3,
+.otros-productos .productos-2 .item-4,
+.otros-productos .productos-2 .item-5,
+.otros-productos .productos-2 .item-6,
+.otros-productos .productos-2 .item-7,
+.otros-productos .productos-2 .item-8 {
+  flex: 1 1 calc(10% - 5px);
+  width: 100px;
+  height: 480px;
+  box-sizing: border-box;
+  border: 1px solid #B0B0B0;
+  border-radius: 8px;
+  text-align: start;
+  background-color: #B0B0B0;
+}
+
+.otros-productos img {
+  width: 100%;
+  height: 75%;
+
 }
 
 body {
